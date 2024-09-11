@@ -1,6 +1,6 @@
-import * as ReactDOM from 'react-dom/client';
-import Landing from './landing';
+import * as ReactDOM from "react-dom/client";
+import Landing from "./landing";
 
-const root = ReactDOM.createRoot(document.getElementById('root')!);
+const root = ReactDOM.createRoot(document.getElementById("root")!);
 
-root.render(<Landing />)
+root.render(<Landing />);

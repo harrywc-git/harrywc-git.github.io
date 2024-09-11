@@ -5,12 +5,14 @@ import { useState } from "react";
 
 const Landing = () => {
   const [showContacts, setShowContacts] = useState<Boolean>(false);
-
   return (
     <>
       <Backdrop />
       <div className="flex flex-col absolute items-center top-[50vh] left-[50vw] translate-x-[-50%] translate-y-[-50%]">
-        <a className="relative mr-auto mb-[10px]" href="https://github.com/harrywc-git">
+        <a
+          className="relative mr-auto mb-[10px]"
+          href="https://github.com/harrywc-git"
+        >
           <GithubIcon />
         </a>
         {showContacts ? (
